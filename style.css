@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'exmachino', sans-serif;
+}
+
+body{
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: black;
+}
+.main {
+	width: 1400px;
+	max-width: 100%;
+	max-height: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+body{
+	background-image: url(img/225.jpg);
+	background-repeat: no-repeat;
+	position: flex;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.main header .logo h2 a{
+	display: block;
+	padding: 15px;
+}
+.header {
+	position: relative;
+	padding: 0 2rem;
+}
+.main header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 0 30px;
+}
+nav{
+	width: 100%;
+	height: 60px;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+nav	ul li a{
+	text-decoration: none;
+	color: white;
+	margin-left: 10px;
+	margin-right: 50px;
+	font-size: 18px;
+	font-weight: 800;
+	border-bottom: 5px solid transparent;
+	transition: .5s;
+	font-family: 'arial', sans-serif;
+}
+
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus{
+	border-bottom: 3px solid white;
+}
+nav ul li.nav-1 a{
+	margin-left: 500px;
+    background: transparent;
+    color: black;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    nav ul li.nav-1:hover a{
+	border: 1px;
+	color: white;
+	background: black;
+	transition: .3s;
+}
+nav ul li.nav-2 a{
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    nav ul li.nav-2:hover a{
+	border: 1px;
+	color: white;
+	background: black;
+	transition: .3s;
+}
+nav ul li.nav-3 a{
+	margin-left: 50px;
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    }
+nav ul li.nav-3:hover a{
+	border: 1px;
+	color: black;
+	background: white;
+	transition: .3s;
+}
+
+.content .text .play {
+display: inline-block;
+text-decoration: none;
+color: white;
+background: transparent;
+border: 1px solid white;
+padding: 7px 23px;
+line-height: 1.4;
+border-radius: 30px;
+font-size: 14px;
+font-weight: 500;
+margin-left: 640px;
+margin-top: 380px;
+}
+
+.content .text .play:hover {
+	background: white;
+	color: black;
+	transition: .4s;
+}
+
+@media (max-width : 992px) {
+	nav .link {
+		display: none;
+	}
+	
+	
+}
+

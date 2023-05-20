@@ -1,0 +1,21 @@
+.content {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    margin-left: 800px;
+    margin-right: 300px;
+}
+
+.content > div {
+    margin-top: 100px;
+    flex: 1;
+    border-radius: 1rem; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.content > div:hover {
+    flex: 1.5;
+}
